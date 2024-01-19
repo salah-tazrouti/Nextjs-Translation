@@ -1,0 +1,54 @@
+{
+  "Home": {
+    "title": "Welcome to Our IT Agency",
+    "welcome_section": [
+      {
+        "title": "Your Partner in Technology Solutions",
+        "button": "Get Started"
+      }
+    ],
+    "services_section": [
+      {
+        "title": "Our Services",
+        "services": [
+          {
+            "title": "Web Development",
+            "description": "Expertise in creating responsive and scalable web applications."
+          },
+          {
+            "title": "Mobile App Development",
+            "description": "Building innovative and user-friendly mobile applications."
+          },
+          {
+            "title": "Cloud Solutions",
+            "description": "Harnessing the power of cloud computing for your business."
+          }
+        ]
+      }
+    ],
+    "about_section": {
+      "title": "About Us",
+      "description": "We are a team of dedicated professionals passionate about delivering cutting-edge solutions to our clients. With years of experience in the IT industry, we strive to exceed expectations and drive success."
+    },
+    "contact_section": {
+      "title": "Contact Us",
+      "description": "Have a project in mind? Let's discuss how we can help.",
+      "button": "Contact Us"
+    }
+  },
+  "Contact": 
+    {
+      "title": "Contact Us",
+      "description": "If you have any questions, feel free to reach out to us",
+      "email": "Email",
+      "phone": "Phone",
+      "form": [
+        {
+          "name": "Name",
+          "email": "Email",
+          "description": "Description",
+          "button": "Contact Us"
+        }
+      ]
+    }
+  }
