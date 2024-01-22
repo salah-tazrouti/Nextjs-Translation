@@ -1,0 +1,54 @@
+{
+  "Home": {
+    "title": "Bienvenue dans notre agence informatique",
+    "welcome_section": [
+      {
+        "title": "Votre partenaire en solutions technologiques",
+        "button": "Commencer"
+      }
+    ],
+    "services_section": [
+      {
+        "title": "Nos services",
+        "services": [
+          {
+            "title": "Développement Web",
+            "description": "Expertise dans la création d'applications web réactives et évolutives."
+          },
+          {
+            "title": "Développement d'applications mobiles",
+            "description": "Construction d'applications mobiles innovantes et conviviales."
+          },
+          {
+            "title": "Solutions Cloud",
+            "description": "Exploiter la puissance de l'informatique en nuage pour votre entreprise."
+          }
+        ]
+      }
+    ],
+    "about_section": {
+      "title": "À propos de nous",
+      "description": "Nous sommes une équipe de professionnels dévoués passionnés par la fourniture de solutions de pointe à nos clients. Avec des années d'expérience dans l'industrie informatique, nous nous efforçons de dépasser les attentes et de favoriser la réussite."
+    },
+    "contact_section": {
+      "title": "Contactez-nous",
+      "description": "Vous avez un projet en tête ? Parlons de la façon dont nous pouvons vous aider.",
+      "button": "Nous contacter"
+    }
+  },
+  "Contact": 
+    {
+      "title": "Contactez-nous",
+      "description": "Si vous avez des questions, n'hésitez pas à nous contacter",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "form": [
+        {
+          "name": "Nom",
+          "email": "E-mail",
+          "description": "Description",
+          "button": "Nous contacter"
+        }
+      ]
+    }
+}
