@@ -1,4 +1,7 @@
 {
+  "Head":{
+    "title": "Agence informatique"
+  },
   "Home": {
     "title": "Bienvenue dans notre agence informatique",
     "welcome_section": [
