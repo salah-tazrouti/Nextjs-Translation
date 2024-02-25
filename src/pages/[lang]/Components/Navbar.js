@@ -9,18 +9,23 @@ import { useTranslation } from 'react-i18next';
 const Navbar = () => {
   const { t } = useTranslation();
     return (
-    <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        {/* Logo or Brand */}
-        <Link href={`/${Lang()}`} className="text-white text-xl font-bold">
-          {t('Head.title')}
-        </Link>
-        <div className="space-x-4">
-            <LanguageSwitcher />
-          
+      <nav className="p-5 relative">
+        <div className="fixed top-0 left-0 right-0 flex justify-between items-center bg-gray-800 p-5">
+          {/* Logo or Brand */}
+          <Link href={`/${Lang()}`} className="text-white text-xxl font-bold">
+            {t('Head.title')}
+          </Link>
+          <div className="space-x-6 text-white">
+            <Link href={`/${Lang()}/`}>{t('Head.Home')}</Link>
+            <Link href={`/${Lang()}/#About`}>{t('Head.About')}</Link>
+            <Link href={`/${Lang()}/#Services`}>{t('Head.Services')}</Link>
+            <Link href={`/${Lang()}/#Contact`}>{t('Head.Contact')}</Link>
+          </div>
+          <div className="space-x-4">
+              <LanguageSwitcher />
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
   );
 };
 
