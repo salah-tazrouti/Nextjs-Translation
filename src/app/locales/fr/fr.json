@@ -1,9 +1,18 @@
 {
+  "Head":{
+    "title": "Agence informatique",
+    "Home": "Accueil",
+    "About": "A propos",
+    "Services": "Services",
+    "Contact": "Contact"
+  },
   "Home": {
     "title": "Bienvenue dans notre agence informatique",
     "welcome_section": [
       {
         "title": "Votre partenaire en solutions technologiques",
+        "description": "nous sommes fiers d'être votre partenaire dédié en matière de solutions technologiques. Dans le paysage commercial dynamique d'aujourd'hui, garder une longueur d'avance nécessite non seulement une adaptation, mais aussi une intégration technologique stratégique. C'est là que nous intervenons - pour responsabiliser votre entreprise et favoriser la croissance grâce à la réduction- solutions de pointe.",
+        "title2": "développons votre entreprise ensemble",
         "button": "Commencer"
       }
     ],
@@ -40,6 +49,7 @@
     {
       "title": "Contactez-nous",
       "description": "Si vous avez des questions, n'hésitez pas à nous contacter",
+      "description2": "Pour toute demande de renseignements ou d'assistance, n'hésitez pas à contacter notre équipe d'assistance client.",
       "email": "E-mail",
       "phone": "Téléphone",
       "form": [
