@@ -1,12 +1,18 @@
 {
   "Head":{
-    "title": "IT Agency"
+    "title": "IT Agency",
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "Contact": "Contact"
   },
   "Home": {
     "title": "Welcome to Our IT Agency",
     "welcome_section": [
       {
         "title": "Your Partner in Technology Solutions",
+        "description":"we proudly stand as your dedicated partner in technology solutions. In today's dynamic business landscape, staying ahead requires not just adaptation, but strategic technological integration. That's where we come in – to empower your business and foster growth through cutting-edge solutions.",
+        "title2": "lets grow your business together",
         "button": "Get Started"
       }
     ],
@@ -36,6 +42,7 @@
     "contact_section": {
       "title": "Contact Us",
       "description": "Have a project in mind? Let's discuss how we can help.",
+      "description2": "For any inquiries or support, feel free to reach out to our customer support team.",
       "button": "Contact Us"
     }
   },
