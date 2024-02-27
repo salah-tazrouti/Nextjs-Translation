@@ -31,13 +31,25 @@
           {
             "title": "Cloud Solutions",
             "description": "Harnessing the power of cloud computing for your business."
+          },
+          {
+            "title": "Data Analytics & Business Intelligence:",
+            "description": " collecting, analyzing, and interpreting data to provide insights that help businesses make informed decisions. Your web development and cloud skills would be valuable in building data pipelines and dashboards for visualization."
+          },
+          {
+            "title": "Cybersecurity",
+            "description": "rotecting systems and data from unauthorized access, use, disclosure, disruption, modification, or destruction. Your experience in handling sensitive information on different platforms can be an asset in this field."
+          },
+          {
+            "title": "IT Support",
+            "description": "providing ongoing technical assistance to businesses, ensuring their IT infrastructure runs smoothly. Your expertise in web development, mobile applications, and cloud solutions can come into play when troubleshooting technical issues "
           }
         ]
       }
     ],
     "about_section": {
       "title": "About Us",
-      "description": "We are a team of dedicated professionals passionate about delivering cutting-edge solutions to our clients. With years of experience in the IT industry, we strive to exceed expectations and drive success."
+      "description": "We are a team of passionate IT professionals with five years of combined industry experience. We share a passion for innovation and a commitment to providing cutting-edge solutions to enable our customers to achieve their goals. Our team is dedicated to exceeding expectations and working closely with our clients to ensure their success"
     },
     "contact_section": {
       "title": "Contact Us",

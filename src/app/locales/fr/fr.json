@@ -31,13 +31,25 @@
           {
             "title": "Solutions Cloud",
             "description": "Exploiter la puissance de l'informatique en nuage pour votre entreprise."
-          }
+          },     
+          {
+            "title": "Analytique de données et Business Intelligence :",
+            "description": "Collecte, analyse et interprétation de données pour fournir des informations exploitables qui aident les entreprises à prendre des décisions éclairées. Vos compétences en développement Web et en cloud seraient précieuses pour la création de pipelines de données et de tableaux de bord pour la visualisation."
+            },
+            {
+            "title": "Cybersécurité",
+            "description": "Protection des systèmes et des données contre l'accès, l'utilisation, la divulgation, la perturbation, la modification ou la destruction non autorisés. Votre expérience dans la gestion des informations sensibles sur différentes plateformes peut être un atout dans ce domaine."
+            },
+            {
+            "title": "Support informatique",
+            "description": "Fourniture d'une assistance technique continue aux entreprises, garantissant le bon fonctionnement de leur infrastructure informatique. Votre expertise en développement Web, en applications mobiles et en solutions cloud peut être mise à profit lors du dépannage de problèmes techniques."
+            }
         ]
       }
     ],
     "about_section": {
       "title": "À propos de nous",
-      "description": "Nous sommes une équipe de professionnels dévoués passionnés par la fourniture de solutions de pointe à nos clients. Avec des années d'expérience dans l'industrie informatique, nous nous efforçons de dépasser les attentes et de favoriser la réussite."
+      "description": "Nous sommes une équipe de professionnels de l'informatique passionnés, forts de cinq ans d'expérience combinée dans l'industrie. Nous partageons une passion pour l'innovation et un engagement à fournir des solutions de pointe afin de permettre à nos clients d'atteindre leurs objectifs. Notre équipe se consacre à dépasser les attentes et à collaborer étroitement avec nos clients pour assurer leur succès"
     },
     "contact_section": {
       "title": "Contactez-nous",
