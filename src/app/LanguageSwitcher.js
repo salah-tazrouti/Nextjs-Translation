@@ -28,7 +28,7 @@ const LanguageSwitcher = () => {
 
   return (
     <div>
-      <select onChange={(e) => changeLanguage(e.target.value)}>
+      <select onChange={(e) => changeLanguage(e.target.value)} className='block w-full px-2 py-2  border rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">'>
         <option value="en">English</option>
         <option value="fr">French</option>
       </select>
