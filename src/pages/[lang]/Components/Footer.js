@@ -22,10 +22,10 @@ const Footer = () => {
             <Link href={`/${Lang()}/#Services`}>{t('Head.Services')}</Link>
             <Link href={`/${Lang()}/#Contact`}>{t('Head.Contact')}</Link>
           </div>
-          <p className="hidden md:block">Subscribe for news letter</p> 
+          <p className="hidden md:block">{t('Head.Newsletter')}</p> 
           <form action="" className="hidden md:flex space-x-2"> 
             <input type="text" placeholder="Email" className="p-2 rounded-lg" />
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-500">Subscribe</button>
+            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-500">{t('Head.Subscribe')}</button>
           </form>
         </div>
       </div>
