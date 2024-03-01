@@ -4,7 +4,9 @@
     "Home": "Accueil",
     "About": "A propos",
     "Services": "Services",
-    "Contact": "Contact"
+    "Contact": "Contact",
+    "Newsletter":"Abonnez-vous pour notre nouvelles",
+    "Subscribe":"Abonnez"
   },
   "Home": {
     "title": "Bienvenue dans notre agence informatique",

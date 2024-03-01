@@ -4,7 +4,9 @@
     "Home": "Home",
     "About": "About",
     "Services": "Services",
-    "Contact": "Contact"
+    "Contact": "Contact",
+    "Newsletter":"Subscribe for news letter",
+    "Subscribe":"Subscribe"
   },
   "Home": {
     "title": "Welcome to Our IT Agency",
