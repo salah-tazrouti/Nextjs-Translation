@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
-  const {t}=useTranslation();
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -37,9 +37,9 @@ const Contact = () => {
         <p>{t('Contact.phone')}: +1 123-456-7890</p>
       </div>
 
-      <form onSubmit={handleSubmit} className="mt-4">
-        <label htmlFor="name" className="block text-sm font-medium text-gray-600">
-        {t('Contact.form.0.name')}:
+      <form onSubmit={handleSubmit} className="mt-4 p-4 bg-gray-100 rounded-md">
+        <label htmlFor="name" className="block text-base font-medium text-gray-700">
+          {t('Contact.form.0.name')}:
         </label>
         <input
           type="text"
@@ -48,11 +48,11 @@ const Contact = () => {
           value={formData.name}
           onChange={handleChange}
           required
-          className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+          className="mt-2 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"
         />
 
-        <label htmlFor="email" className="block text-sm font-medium text-gray-600 mt-4">
-        {t('Contact.form.0.email')}:
+        <label htmlFor="email" className="block text-base font-medium text-gray-700 mt-4">
+          {t('Contact.form.0.email')}:
         </label>
         <input
           type="email"
@@ -61,10 +61,10 @@ const Contact = () => {
           value={formData.email}
           onChange={handleChange}
           required
-          className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+          className="mt-2 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"
         />
 
-        <label htmlFor="message" className="block text-sm font-medium text-gray-600 mt-4">
+        <label htmlFor="message" className="block text-base font-medium text-gray-700 mt-4">
           {t('Contact.form.0.description')}:
         </label>
         <textarea
@@ -73,12 +73,12 @@ const Contact = () => {
           value={formData.message}
           onChange={handleChange}
           required
-          className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+          className="mt-2 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"
         ></textarea>
 
         <button
           type="submit"
-          className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
+          className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-green-600 focus:outline-none focus:ring focus:border-green-300"
         >
           {t('Contact.form.0.button')}
         </button>
