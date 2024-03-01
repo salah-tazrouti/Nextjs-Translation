@@ -9,8 +9,8 @@ import { useTranslation } from 'react-i18next';
 const Navbar = () => {
   const { t } = useTranslation();
     return (
-      <nav className="p-5 relative">
-        <div className="fixed top-0 left-0 right-0 flex justify-between items-center bg-gray-800 p-5">
+      <nav className="relative z-50">
+        <div className="fixed top-0 left-0 right-0 flex justify-between items-center bg-gray-800 p-3">
           {/* Logo or Brand */}
           <Link href={`/${Lang()}`} className="text-white text-xxl font-bold">
             {t('Head.title')}

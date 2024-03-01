@@ -1,6 +1,6 @@
 "use client";
 
-import Navbar from "../pages/[lang]/Navbar";
+import Navbar from "../pages/[lang]/Components/Navbar";
 export const  Layout = ({ children }) => {
     return(
       <div>

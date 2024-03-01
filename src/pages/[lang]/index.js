@@ -10,6 +10,7 @@ import Hero from './Components/Hero';
 import Services from './Components/Services';
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 export default function TryHome() {
 
@@ -21,9 +22,10 @@ export default function TryHome() {
       {/* <Navbar /> */}
       <div className="bg-gray-100">
         <Hero/>
-        <Services/>
         <About/>
+        <Services/>
         <Contact/>
+        <Footer/>
       </div>
     </div>
   );
