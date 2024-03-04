@@ -23,7 +23,7 @@ export default function Services() {
                     <p className="text-gray-700">
                         {t('Home.contact_section.description2')}
                     </p>
-                    <button className="mt-4 bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600" >
+                    <button className="mt-4 bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600" >
                         <Link href={`${Lang()}/Contact`}>{t('Home.contact_section.button')}</Link>
                     </button>
                 </div>
