@@ -7,6 +7,7 @@ import Head from 'next/head';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import AOS from 'aos';
+import Footer from './[lang]/Components/Footer';
 
 
 function MyApp({ Component, pageProps }) {
@@ -18,13 +19,14 @@ function MyApp({ Component, pageProps }) {
   }, []);
   return (
     <div>
-        <Head>
-            <title>{t('Head.title')}</title>
-            <link rel="icon" href="./favicon.jpg" sizes="any" />
-        </Head>
-        <Navbar/>
+      <Head>
+        <title>{t('Head.title')}</title>
+        <link rel="icon" href="./favicon.jpg" sizes="any" />
+      </Head>
+      <Navbar />
       <Component {...pageProps} />
-      
+      <Footer />
+
     </div>
   );
 }
