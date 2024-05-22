@@ -11,10 +11,10 @@ export default function TryHome() {
   return (
     <div className="bg-gray-100 min-h-screen">
       <div className=" max-w-7xl mx-auto">
-        <Hero/>
-         <About/>
-        <Services/>
-        <Contact/>
+        <Hero />
+        <About />
+        <Services />
+        <Contact />
       </div>
     </div>
   );
