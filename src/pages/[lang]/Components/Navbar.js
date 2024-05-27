@@ -18,8 +18,12 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const handleclose = () => {
+    setIsOpen(false);
+  };
 
   return (
+    
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
@@ -29,7 +33,7 @@ const Navbar = () => {
 
         {/* Middle Nav Links */}
         <div className="hidden md:flex space-x-4">
-          <Link href={`/${Lang()}/`} className="text-white hover:text-gray-300">{t('Head.Home')}</Link>
+          <Link href={`/${Lang()}/`} className="text-white hover:text-gray-300" >{t('Head.Home')}</Link>
           <Link href={`/${Lang()}/#About`} className="text-white hover:text-gray-300">{t('Head.About')}</Link>
           <Link href={`/${Lang()}/#Services`} className="text-white hover:text-gray-300">{t('Head.Services')}</Link>
           <Link href="#Contact" className="text-white hover:text-gray-300">{t('Head.Contact')}</Link>
@@ -49,11 +53,11 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden mt-2 space-y-2">
-          <Link href={`/${Lang()}/`} className="block text-white hover:text-gray-300" >{t('Head.Home')}</Link>
-          <Link href={`/${Lang()}/#About`} className="block text-white hover:text-gray-300">{t('Head.About')}</Link>
-          <Link href={`/${Lang()}/#Services`} className="block text-white hover:text-gray-300">{t('Head.Services')}</Link>
-          <Link href="#Contact" className="block text-white hover:text-gray-300">{t('Head.Contact')}</Link>
-          <LanguageSwitcher />
+          <Link href={`/${Lang()}/`} className="block text-white hover:text-gray-300" onClick={handleclose}>{t('Head.Home')}</Link>
+          <Link href={`/${Lang()}/#About`} className="block text-white hover:text-gray-300" onClick={handleclose}>{t('Head.About')}</Link>
+          <Link href={`/${Lang()}/#Services`} className="block text-white hover:text-gray-300" onClick={handleclose}>{t('Head.Services')}</Link>
+          <Link href="#Contact" className="block text-white hover:text-gray-300" onClick={handleclose}>{t('Head.Contact')}</Link>
+          <LanguageSwitcher onClick={handleclose} />
           
         </div>
       )}
