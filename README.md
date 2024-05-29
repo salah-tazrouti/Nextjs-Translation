@@ -51,27 +51,30 @@
 ### Key Features <a name="How-It-Works"></a>
 This section explains how the internationalization (i18n) works in the project using i18next with Next.js:
 
-- **[Initialization:]**
+## Initialization: ##
 
 - i18next is initialized in the project with the necessary configuration.
 - The configuration includes specifying the languages supported, the default language, and the path to the translation files.
 
-- **[Translation Files:]**
+## Translation Files: ##
 
 - Translation files are stored in a specific directory, typically in the public/locales folder.
 - Each language has its own folder containing JSON files with key-value pairs for translation strings.
 
 - Example structure:
 
-`src/
+```
+
+src/
   app/
     locales/
       en/
         en.json
       fr/
         fr.json
-`
-- **[Using Translations in Components:]**
+```
+
+## Using Translations in Components ##
 
 - Components use the useTranslation hook from react-i18next to access the translation strings.
 - Example usage:
@@ -87,7 +90,7 @@ const MyComponent = () => {
 ```
 The t function takes a key as an argument and returns the corresponding translation string.
 
-- **[Language Switching:]**
+## Language Switching ##
 
 - Language switching is typically implemented using a dropdown or buttons that call the i18n.changeLanguage method.
 - Example:
