@@ -166,8 +166,8 @@ Install this project with:
 
 👤 **Author1**
 
-- GitHub: [@stazrouti](https://github.com/ridabnesalem)
-- LinkedIn: [ridabesalem](https://linkedin.com/in/salah-eddine-tazrouti)
+- GitHub: [@stazrouti](https://github.com/stazrouti)
+- LinkedIn: [salah Eddine Tazrouti](https://linkedin.com/in/salah-eddine-tazrouti)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
