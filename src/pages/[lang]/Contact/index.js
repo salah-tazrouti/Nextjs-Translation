@@ -28,8 +28,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-100 p-4 mt-10 pt-10 flex flex-col md:flex-row h-screen">
-      <div className="flex-1 mt-32 md:pt-0 md:pr-4 animate-fade-left">
+    <div className="bg-gray-100 p-4  pt-10 flex flex-col md:flex-row h-screen sm: h-max">
+      <div className="flex-1 mt-32 md:pt-0 pr-4 animate-fade-left sm:mt-2">
         <h2 className="text-2xl font-bold mb-4">{t('Contact.title')}</h2>
         <p>{t('Contact.description')}</p>
 

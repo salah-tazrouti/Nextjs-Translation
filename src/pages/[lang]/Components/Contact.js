@@ -14,7 +14,7 @@ export default function Services() {
                         <img
                             src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?size=626&ext=jpg&ga=GA1.1.1573562918.1700557704&semt=sph"
                             alt="Customer Support"
-                            className="max-h-64 sm hidden "
+                            className="max-h-64 sm:hidden md:block"
 
                         />
                     </div>
