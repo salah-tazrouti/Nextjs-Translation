@@ -48,8 +48,11 @@
 
 - **[Translation]**
 
-### Key Features <a name="How-It-Works"></a>
+###   Key Features <a name="How-It-Works"></a>
 This section explains how the internationalization (i18n) works in the project using i18next with Next.js:
+
+
+### 🔧 How i18n works <a name="How i18n works"></a>
 
 ## Initialization: ##
 
