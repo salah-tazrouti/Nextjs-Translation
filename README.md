@@ -48,7 +48,7 @@
 
 - **[Translation]**
 
-###   Key Features <a name="How-It-Works"></a>
+###   Key Features <a name="key-features"></a>
 This section explains how the internationalization (i18n) works in the project using i18next with Next.js:
 
 
@@ -58,6 +58,11 @@ This section explains how the internationalization (i18n) works in the project u
 
 - i18next is initialized in the project with the necessary configuration.
 - The configuration includes specifying the languages supported, the default language, and the path to the translation files.
+
+  ```
+  npm install next-i18next react-i18next i18next
+
+  ```
 
 ## Translation Files: ##
 
