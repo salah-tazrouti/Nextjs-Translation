@@ -9,7 +9,7 @@ import Contact from './Components/Contact';
 export default function TryHome() {
 
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 min-h-screen overflow-y-hidden">
       <div className=" max-w-7xl mx-auto">
         <Hero />
         <About />
