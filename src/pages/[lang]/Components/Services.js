@@ -6,7 +6,7 @@ import { FaLaptopCode, FaMobileAlt, FaDatabase, FaPaintBrush, FaServer, FaCloud 
 export default function Services() {
     const { t } = useTranslation();
     return (
-        <section id="Services" className="services-section text-center py-16">
+        <section id="Services" className="services-section text-center py-16 px-8">
             <h2 className="text-2xl font-bold mb-8" data-aos="fade-up">{t('Home.services_section.0.title')}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-aos="fade-up">
                 <div className="p-6 bg-white rounded-lg shadow-md hover:shadow-xl transform transition duration-300 hover:bg-blue-100">
