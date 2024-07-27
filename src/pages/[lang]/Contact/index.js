@@ -1,5 +1,3 @@
-// Contact.js
-
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
@@ -28,19 +26,19 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-100 p-4  pt-10 flex flex-col md:flex-row h-screen sm: h-max">
-      <div className="flex-1 mt-32 md:pt-0 pr-4 animate-fade-left sm:mt-2">
-        <h2 className="text-2xl font-bold mb-4">{t('Contact.title')}</h2>
-        <p>{t('Contact.description')}</p>
+    <div className=" p-6 lg:p-12 flex flex-col md:flex-row h-auto max-w-7xl mx-auto">
+      <div className="flex-1 mt-16 md:mt-0 md:pr-8" data-aos="fade-left">
+        <h2 className="text-3xl font-extrabold mb-6 text-gray-800">{t('Contact.title')}</h2>
+        <p className="text-lg text-gray-600 leading-relaxed mb-6">{t('Contact.description')}</p>
 
-        <div className="contact-info mt-4">
-          <p>{t('Contact.email')}: example@example.com</p>
-          <p>{t('Contact.phone')}: +1 123-456-7890</p>
+        <div className="contact-info text-lg text-gray-600">
+          <p className="mb-2"><strong>{t('Contact.email')}:</strong> example@example.com</p>
+          <p><strong>{t('Contact.phone')}:</strong> +1 123-456-7890</p>
         </div>
       </div>
-      <div className="flex-1 animate-fade-right">
-        <form onSubmit={handleSubmit} className="mt-4 p-4 bg-gray-100 rounded-md">
-          <label htmlFor="name" className="block text-base font-medium text-gray-700">
+      <div className="flex-1 mt-12 md:mt-0" data-aos="fade-right">
+        <form onSubmit={handleSubmit} className="p-6 bg-white shadow-lg rounded-md">
+          <label htmlFor="name" className="block text-lg font-medium text-gray-700">
             {t('Contact.form.0.name')}:
           </label>
           <input
@@ -50,10 +48,10 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="mt-2 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+            className="mt-2 p-3 w-full border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
           />
 
-          <label htmlFor="email" className="block text-base font-medium text-gray-700 mt-4">
+          <label htmlFor="email" className="block text-lg font-medium text-gray-700 mt-4">
             {t('Contact.form.0.email')}:
           </label>
           <input
@@ -63,10 +61,10 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="mt-2 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+            className="mt-2 p-3 w-full border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent"
           />
 
-          <label htmlFor="message" className="block text-base font-medium text-gray-700 mt-4">
+          <label htmlFor="message" className="block text-lg font-medium text-gray-700 mt-4">
             {t('Contact.form.0.description')}:
           </label>
           <textarea
@@ -75,19 +73,18 @@ const Contact = () => {
             value={formData.message}
             onChange={handleChange}
             required
-            className="mt-2 p-2 w-full border rounded-md focus:outline-none focus:ring focus:border-blue-300"
+            className="mt-2 p-3 w-full border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent h-32"
           ></textarea>
 
           <button
             type="submit"
-            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-700"
+            className="mt-6 px-6 py-3 bg-blue-500 text-white text-lg rounded-full hover:bg-blue-600 transition duration-300 focus:outline-none focus:ring-2 focus:ring-blue-700"
           >
             {t('Contact.form.0.button')}
           </button>
         </form>
       </div>
     </div>
-
   );
 };
 
