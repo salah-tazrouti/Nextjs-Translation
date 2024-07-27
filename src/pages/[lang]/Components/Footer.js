@@ -1,6 +1,6 @@
 // Footer.js
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { Lang } from '@/app/Currentlng';
 import { useTranslation } from 'react-i18next';
@@ -8,10 +8,12 @@ import { toast } from 'react-toastify';
 
 const Footer = () => {
   const { t } = useTranslation();
+  const [email, setEmail] = useState('');
 
   const handleSubscribe = (event) => {
     event.preventDefault(); // Prevent form submission
-    toast.success(t('Head.Success'));
+    toast.success(t('Head.Success')); // Show success notification
+    setEmail(''); // Clear the input field
   };
 
   return (
@@ -30,7 +32,13 @@ const Footer = () => {
           </div>
           <p className="hidden md:block">{t('Head.Newsletter')}</p> 
           <form action="" className="hidden md:flex space-x-2" onSubmit={handleSubscribe}> 
-            <input type="text" placeholder="Email" className="p-2 rounded-lg text-black" />
+            <input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="p-2 rounded-lg text-black"
+            />
             <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-500">{t('Head.Subscribe')}</button>
           </form>
         </div>
