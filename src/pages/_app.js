@@ -8,7 +8,8 @@ import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import Footer from './[lang]/Components/Footer';
-
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 function MyApp({ Component, pageProps }) {
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ function MyApp({ Component, pageProps }) {
         <title>{t('Head.title')}</title>
         <link rel="icon" href="./favicon.jpg" sizes="any" />
       </Head>
+      <ToastContainer />
       <Navbar />
       <Component {...pageProps} />
       <Footer />

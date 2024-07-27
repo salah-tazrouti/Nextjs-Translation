@@ -24,7 +24,8 @@ const Navbar = () => {
 
   return (
     
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 p-4 fixed top-0 w-full z-50">
+      <div className=''>
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link href={`/${Lang()}`} className="text-white text-xxl font-bold">
@@ -61,6 +62,7 @@ const Navbar = () => {
           
         </div>
       )}
+      </div>
     </nav>
 /*   const { t } = useTranslation();
   return (

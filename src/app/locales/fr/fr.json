@@ -6,7 +6,8 @@
     "Services": "Services",
     "Contact": "Contact",
     "Newsletter":"Abonner-vous pour notre nouvelles",
-    "Subscribe":"S'abonner"
+    "Subscribe":"S'abonner",
+    "Success":"Abonné avec succès, merci"
   },
   "Home": {
     "title": "Bienvenue dans notre agence informatique",
