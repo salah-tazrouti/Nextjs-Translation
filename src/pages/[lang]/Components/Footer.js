@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <p className="hidden md:block">{t('Head.Newsletter')}</p> 
           <form action="" className="hidden md:flex space-x-2" onSubmit={handleSubscribe}> 
-            <input type="text" placeholder="Email" className="p-2 rounded-lg" />
+            <input type="text" placeholder="Email" className="p-2 rounded-lg text-black" />
             <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-500">{t('Head.Subscribe')}</button>
           </form>
         </div>
