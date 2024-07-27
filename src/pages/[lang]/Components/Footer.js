@@ -12,7 +12,7 @@ const Footer = () => {
 
   const handleSubscribe = (event) => {
     event.preventDefault(); // Prevent form submission
-    toast.success(t('Subscription successful!'));
+    toast.success(t('Head.Success'));
   };
 
   return (
