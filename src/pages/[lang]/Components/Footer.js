@@ -1,7 +1,6 @@
 // Footer.js
 "use client";
 import React from 'react';
-import LanguageSwitcher from '@/app/LanguageSwitcher';
 import Link from 'next/link';
 import { Lang } from '@/app/Currentlng';
 import { useTranslation } from 'react-i18next';
